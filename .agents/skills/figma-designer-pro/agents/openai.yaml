@@ -1,6 +1,6 @@
 interface:
   display_name: "Figmaデザイナースキル"
-  short_description: "Figmaデータを受け取り、実設定の点検から整理・納品の引き継ぎまで行う"
+  short_description: "Figmaデータを保全して整理し、実物の複製でズレや改善案を共有する"
   default_prompt: "$figma-designer-pro で、このFigmaフレームの実データを点検してください。"
 policy:
   allow_implicit_invocation: true
