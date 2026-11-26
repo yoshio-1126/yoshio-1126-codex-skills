@@ -7,7 +7,8 @@ function auditContentFit(root) {
     const isFrame = ['FRAME', 'COMPONENT', 'INSTANCE', 'COMPONENT_SET'].includes(parent.type);
     for (const child of parent.children) {
       if (child.visible === false) continue;
-      if (isFrame && (!auto || child.layoutPositioning !== 'ABSOLUTE')) {
+      const isText = child.type === 'TEXT';
+      if (isFrame && (isText || !auto || child.layoutPositioning !== 'ABSOLUTE')) {
         const [[a, b, x], [c, d, y]] = child.relativeTransform;
         const dx = a * child.width, dy = b * child.height;
         const ex = c * child.width, ey = d * child.height;
@@ -18,7 +19,12 @@ function auditContentFit(root) {
         if (left < 0 || top < 0 || right > parent.width || bottom > parent.height) {
           findings.push({
             parentId: parent.id, parentName: parent.name, childId: child.id, childName: child.name,
+            childType: child.type, childWidth: child.width, childHeight: child.height,
             width: parent.width, height: parent.height, left, right, top, bottom,
+            overflow: {
+              left: Math.max(0, -left), right: Math.max(0, right - parent.width),
+              top: Math.max(0, -top), bottom: Math.max(0, bottom - parent.height)
+            },
             horizontal: parent.layoutSizingHorizontal, vertical: parent.layoutSizingVertical,
             clipsContent: parent.clipsContent
           });
