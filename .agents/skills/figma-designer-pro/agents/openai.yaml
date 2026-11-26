@@ -1,6 +1,6 @@
 interface:
   display_name: "Figmaデザイナースキル"
-  short_description: "Figmaの実例で、値をそろえる箇所・一括更新する箇所・個別に残す箇所を選べる"
+  short_description: "Figmaの表示や編集を妨げる不備を確認し、原因と直し方を短く伝える"
   default_prompt: "$figma-designer-pro で、このFigmaフレームの実データを点検してください。"
 policy:
   allow_implicit_invocation: true
