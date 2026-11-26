@@ -1,5 +1,5 @@
-# スキルの使い方
+# Figma案件の進め方
 
-[スキル一覧](README.md)から、ユーザーが選んだスキルの SKILL.md と必要な参照資料を読んでください。
+Figmaのファイル・フレームURL、添付されたFigmaデータ、選択中のノードを受け取ったら、[Figmaデザイナースキル](.agents/skills/figma-designer-pro/SKILL.md)と今回必要な参照資料を読む。スキル名の指定やモードの宣言は不要。対象だけなら読み取り専用で点検する。具体的な依頼があればその範囲に従う。
 
-「個人版でデザインを始めます」「Figmaを個人版で点検して」または `$figma-designer-pro` は [Figma個人版](.agents/skills/figma-designer-pro/SKILL.md) を指します。
+「デザインを始めます」「SPできました」「納品用に整理して」などのFigma案件の相談や、従来の「個人版」「デザイナー版」という呼び方も同じスキルで扱う。

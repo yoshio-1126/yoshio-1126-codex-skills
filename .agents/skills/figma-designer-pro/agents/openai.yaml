@@ -1,6 +1,6 @@
 interface:
-  display_name: "デザイナー用Figmaスキル（個人版）"
-  short_description: "初回からFigmaの実データを詳細に点検し、変更箇所を追跡"
-  default_prompt: "個人版でデザインを始めます。"
+  display_name: "Figmaデザイナースキル"
+  short_description: "Figmaデータを受け取り、実設定の点検から整理・納品の引き継ぎまで行う"
+  default_prompt: "$figma-designer-pro で、このFigmaフレームの実データを点検してください。"
 policy:
   allow_implicit_invocation: true
