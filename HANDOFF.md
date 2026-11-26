@@ -1,6 +1,10 @@
 # Figmaデザイナースキルの引き継ぎ
 
-2026年11月26日更新。配布中のスキルはこのリポジトリの main にあります。[スキル本文](.agents/skills/figma-designer-pro/SKILL.md)・[指摘セクションの作り方](.agents/skills/figma-designer-pro/references/feedback.md)・[導入方法](README.md)。
+2026年11月27日更新。配布中のスキルはこのリポジトリの main にあります。[スキル本文](.agents/skills/figma-designer-pro/SKILL.md)・[指摘セクションの作り方](.agents/skills/figma-designer-pro/references/feedback.md)・[導入方法](README.md)。
+
+## 2026年11月27日の改訂
+
+初回は「今そろえる値」と「次に一緒に変更する範囲」を分けて判断する。実物と編集操作を根拠に、値のみの調整、一括更新、個別の表現、判断が必要な差を提案する。判定・承認・保全はスキル本文だけで参照でき、計測・試験は該当資料を読む。Web品質監査、サイトマップ、要件ヒアリングは将来の別スキルの担当範囲。
 
 ## 別のPCで再開するとき
 
