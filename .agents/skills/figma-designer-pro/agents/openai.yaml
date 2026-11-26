@@ -1,6 +1,6 @@
 interface:
   display_name: "Figmaデザイナースキル"
-  short_description: "Figmaデータを保全して整理し、実物の複製でズレや改善案を共有する"
+  short_description: "Figmaの構造と余白を点検し、実物を見て選んだ改善案を反映する"
   default_prompt: "$figma-designer-pro で、このFigmaフレームの実データを点検してください。"
 policy:
   allow_implicit_invocation: true
