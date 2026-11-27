@@ -1,6 +1,6 @@
 interface:
   display_name: "Figmaデザイナースキル"
-  short_description: "構造・小数・共通ルールのずれを点検し、修正前後をFigmaに残す"
+  short_description: "繰り返すカードの構造と数値をそろえ、原寸のオリジナルに指摘を添える"
   default_prompt: "$figma-designer-pro で、このFigmaフレームの実データを点検してください。"
 policy:
   allow_implicit_invocation: true
