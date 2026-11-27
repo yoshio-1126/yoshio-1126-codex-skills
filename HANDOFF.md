@@ -1,10 +1,10 @@
 # Figmaデザイナースキルの引き継ぎ
 
-2026年11月27日更新。配布中のスキルはこのリポジトリの main にあります。[スキル本文](.agents/skills/figma-designer-pro/SKILL.md)・[指摘セクションの作り方](.agents/skills/figma-designer-pro/references/feedback.md)・[導入方法](README.md)。
+2026年11月27日更新。配布中のスキルはこのリポジトリの main にあります。[スキル本文](.agents/skills/figma-designer-pro/SKILL.md)・[修正版の注釈の付け方](.agents/skills/figma-designer-pro/references/feedback.md)・[導入方法](README.md)。
 
 ## main の追加仕様
 
-修正指示は「オリジナル＋修正指示書」の複製にネイティブのアノテーションで記入します。修正版の文字は幅・高さ自動にし、位置は外側の余白と間隔で調整します。別PCではこの追加仕様を含む main を取得してください。
+現行の比較画面はオリジナルと修正版の2つです。元の問題と対応を修正版に直接アノテーションで残します。短い見出し・リンクは上限なしのHug、長い本文は親の内幅に追従するFill＋高さ自動です。短文・長文への変更と親幅の縮小・拡大を別々に試します。以下のv1は旧版の記録です。別PCはmainを取得してください。
 
 ## v1（2026年11月27日確定）
 

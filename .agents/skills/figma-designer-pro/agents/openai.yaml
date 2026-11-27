@@ -1,6 +1,6 @@
 interface:
   display_name: "Figmaデザイナースキル"
-  short_description: "繰り返すカードの構造と数値をそろえ、原寸のオリジナルに指摘を添える"
+  short_description: "繰り返すカードの構造と数値をそろえ、修正版に変更理由を注釈する"
   default_prompt: "$figma-designer-pro で、このFigmaフレームの実データを点検してください。"
 policy:
   allow_implicit_invocation: true
