@@ -6,7 +6,7 @@ Figmaのリンク・添付・選択中のフレームから実データを開き
 
 個人版とデザイナー版を統合し、Pro版の詳細点検・整理・検証・引き継ぎを標準にしました。既存のリンクで引き続き使えるように、登録名は `figma-designer-pro` です。[スキル本文](.agents/skills/figma-designer-pro/SKILL.md)
 
-2026年11月27日、初見検証後に確認ページの配置を更新し、 **v1** として確定しました。別のPCで同じ手順を使うときは、[v1のスキル一式](https://github.com/yoshio-1126/yoshio-1126-codex-skills/tree/v1/.agents/skills/figma-designer-pro)を参照してください。
+通常の依頼には最新版の `main` を使います。リポジトリURLとFigmaのリンクが届いたら、CodexはGitHubで `refs/heads/main` の現在のコミットを解決し、その版のスキル本文・参照資料・検査コードを読みます。Gitなら `git ls-remote <リポジトリURL> refs/heads/main` で確認できます。デザイナーがコミット番号を調べる必要はありません。過去の手順を再現するときは[保存版のv1](https://github.com/yoshio-1126/yoshio-1126-codex-skills/tree/v1/.agents/skills/figma-designer-pro)を参照できます。
 
 ### デザイナーからの依頼
 
