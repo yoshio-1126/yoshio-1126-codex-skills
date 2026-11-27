@@ -20,6 +20,6 @@ Figmaのリンク・添付・選択中のフレームから実データを開き
 - **別のプロジェクトでも使う場合**　このリポジトリの `.agents/skills/figma-designer-pro/` フォルダ一式を、作業先の `.agents/skills/` か、利用環境で有効な個人スキルのディレクトリに登録します。更新時は参照資料と検査スクリプトも含めて同期してください。旧 `figma-designer` を個別に導入している環境は、統合版に切り替えてから新しいチャットを開きます。
 - **GitHub連携で読む場合**　作業先にスキルを設置できない場合は、次の一文を作業先の `AGENTS.md` に一度登録します。以降はFigmaデータを渡すだけで使えます。
 
-> FigmaのURL・ファイル・選択ノードを受け取ったら、GitHub の yoshio-1126/yoshio-1126-codex-skills の main にある .agents/skills/figma-designer-pro/SKILL.md と必要な参照資料を読み、会話と対象から依頼の目的を判断して、該当する手順を適用してください。
+> FigmaのURL・ファイル・選択ノードを受け取ったら、GitHub の yoshio-1126/yoshio-1126-codex-skills の main の先端コミットを解決し、そのコミットの .agents/skills/figma-designer-pro/SKILL.md と必要な参照資料を読み、会話と対象から依頼の目的を判断して、該当する手順を適用してください。
 
 実データの点検には、Figma連携と対象を閲覧できる権限が必要です。公開リポジトリをブラウザで開いただけでは、別の作業環境にスキルは登録されません。
